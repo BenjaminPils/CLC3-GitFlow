@@ -4,6 +4,7 @@ CLC3 GitFlow Projekt
 ## Sequence diagrams for all use cases
 
 ```mermaid
+sequenceDiagram
   title Usecase 1
 
   GitLab->GitLab: Feature Branch in Develop Branch
@@ -14,6 +15,7 @@ CLC3 GitFlow Projekt
 ```
 
 ```mermaid
+sequenceDiagram
   title Usecase 2
 
   GitLab->GitLab: Neue Version auf Release Branch
@@ -23,6 +25,7 @@ CLC3 GitFlow Projekt
 ```
 
 ```mermaid
+sequenceDiagram
   title Usecase 3
 
   GitLab->GitLab: Hotfix wird erkannt als Branch
@@ -33,6 +36,7 @@ CLC3 GitFlow Projekt
 ```
 
 ```mermaid
+sequenceDiagram
   title Usecase 4
 
   GitLab->GitLab: Änderungen im Major und Minor Level wird erkannt.
@@ -41,6 +45,7 @@ CLC3 GitFlow Projekt
 ```
 
 ```mermaid
+sequenceDiagram
   title Usecase 5
 
   GitLab<-->ExternalUrl: Datensätze werden regelmäßig abgefragt und im Repo gespeichert.
