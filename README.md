@@ -4,14 +4,14 @@ CLC3 GitFlow Projekt
 ## Sequence diagrams for all use cases
 
 ```mermaid
-sequenceDiagram
-  title Usecase 1
+graph TD
+title Usecase 1
 
-  GitLab->GitLab: Feature Branch in Develop Branch
-  GitLab->SonarQube: Codequalität überprüfen
-  SonarQube->GitLab: Codequalität Resultat
-  GitLab->GitLab: Merge blockieren falls Codequalität nicht passt. Andernfalls Merge zulassen.
-  GitLab->User: Info wenn Codequalität failed.
+GitLab->GitLab: Feature Branch in Develop Branch
+GitLab->SonarQube: Codequalität überprüfen
+SonarQube->GitLab: Codequalität Resultat
+GitLab->GitLab: Merge blockieren falls Codequalität nicht passt. Andernfalls Merge zulassen.
+GitLab->User: Info wenn Codequalität failed.
 ```
 
 ```mermaid
