@@ -3,8 +3,7 @@ CLC3 GitFlow Projekt
 
 ## Sequence diagrams for all use cases
 
-```
-sequenceDiagram
+```puml
   title Usecase 1
 
   GitLab->GitLab: Feature Branch in Develop Branch
@@ -14,8 +13,7 @@ sequenceDiagram
   GitLab->User: Info wenn Codequalität failed.
 ```
 
-```
-sequenceDiagram
+```puml
   title Usecase 2
 
   GitLab->GitLab: Neue Version auf Release Branch
@@ -24,8 +22,7 @@ sequenceDiagram
 
 ```
 
-```
-sequenceDiagram
+```puml
   title Usecase 3
 
   GitLab->GitLab: Hotfix wird erkannt als Branch
@@ -35,8 +32,7 @@ sequenceDiagram
 
 ```
 
-```
-sequenceDiagram
+```puml
   title Usecase 4
 
   GitLab->GitLab: Änderungen im Major und Minor Level wird erkannt.
@@ -44,8 +40,7 @@ sequenceDiagram
 
 ```
 
-```
-sequenceDiagram
+```puml
   title Usecase 5
 
   GitLab<-->ExternalUrl: Datensätze werden regelmäßig abgefragt und im Repo gespeichert.
